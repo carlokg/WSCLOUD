@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="EjCasa"/>
+<aop-project name="02_SpringAnotaciones"/>
+<aop-project name="CARLOS_GARCIA_GINER"/>
+<aop-project name="09_practicando"/>
+<aop-project name="03_SpringBoot"/>
+<aop-project name="Pedidos"/>
+<aop-project name="03_Ejercicio1_cgg_Springboot"/>
+<aop-project name="01_FundamentosSpring"/>
+<aop-project name="09_practicandoExamen"/>
+</aop-reference-model>

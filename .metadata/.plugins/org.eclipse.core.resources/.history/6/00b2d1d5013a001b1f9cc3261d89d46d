@@ -1,0 +1,25 @@
+package demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+import demo.modelo.entidad.Empleado;
+
+@SpringBootApplication
+public class CarlosGarciaGinerApplication {
+	public static ApplicationContext context = null;
+
+	public static void main(String[] args) {
+		context = SpringApplication.run(CarlosGarciaGinerApplication.class, args);
+		
+		
+		Empleado e1 = context.getBean("empleado", Empleado.class);
+		e1.setNombre("Pepe");
+		e1.setCompania("Deloitte");
+		e1.getNomina().setFecha("01/01/2001");
+		e1.getNomina().setSalario(2500);;
+		
+	}
+
+}

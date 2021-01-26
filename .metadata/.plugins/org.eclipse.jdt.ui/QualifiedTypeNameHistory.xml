@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ejercicioCasaEntidad.Direccion"/>
+    <fullyQualifiedTypeName name="ejercicioCasaEntidad.Casa"/>
+    <fullyQualifiedTypeName name="entidad.Casa"/>
+    <fullyQualifiedTypeName name="demo.modelo.entidad.Cliente"/>
+    <fullyQualifiedTypeName name="demo.modelo.entidad.Pedido"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ImportResource"/>
+    <fullyQualifiedTypeName name="demo.modelo.entidad.Email"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="demo.modelo.entidad.Autor"/>
+    <fullyQualifiedTypeName name="demo.modelo.entidad.Libro"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="demo.modelo.entidad.Director"/>
+    <fullyQualifiedTypeName name="demo.modelo.entidad.Pelicula"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="demo.modelo.entidad.Motor"/>
+    <fullyQualifiedTypeName name="demo.modelo.entidad.Avion"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+</qualifiedTypeNameHistroy>

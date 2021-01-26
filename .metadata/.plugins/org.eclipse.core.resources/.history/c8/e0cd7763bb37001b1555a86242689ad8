@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id = "email2" class="demo.modelo.entidad.Email" scope="singleton">
+		<property name="id" value="2"></property>
+		<property name="remitente" value="Marta"></property>
+		<property name="destinatario" value="pepe"></property>
+	</bean>
+
+
+		<bean id = "email3" class="demo.modelo.entidad.Email" scope="singleton">
+		<property name="id" value="3"></property>
+		<property name="remitente" value="Raquel"></property>
+		<property name="destinatario" value="Eva"></property>
+	</bean>
+	
+	
+	
+	
+</beans>

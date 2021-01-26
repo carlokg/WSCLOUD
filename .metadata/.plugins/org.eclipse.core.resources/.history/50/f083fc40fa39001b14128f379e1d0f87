@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="motor1" class="demo.modelo.entidad.Motor">
+		<property name="cv" value="10"></property>
+		<property name="cilindrada" value="2500"></property>
+	</bean>
+	
+		<bean id="motor2" class="demo.modelo.entidad.Motor">
+		<property name="cv" value="20"></property>
+		<property name="cilindrada" value="5000"></property>
+	</bean>
+
+</beans>

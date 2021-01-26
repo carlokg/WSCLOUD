@@ -1,0 +1,24 @@
+package demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+import demo.modelo.entidad.Email;
+
+@SpringBootApplication
+public class Application {
+	
+	public static ApplicationContext context = null;
+
+	public static void main(String[] args) {
+		context = SpringApplication.run(Application.class, args);
+		
+		Email e = context.getBean("email", Email.class);
+		e.setId(1);
+		e.setDestinatario("Pepe");
+		e.setRemitente("Juan");
+		System.out.println(e);
+	}
+
+}

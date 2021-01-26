@@ -1,0 +1,22 @@
+
+public class Autor {
+	String isbn;
+	String editorial;
+	Autor autor;
+	
+	
+	public Autor(String isbn, String editorial, Autor autor) {
+		super();
+		this.isbn = isbn;
+		this.editorial = editorial;
+		this.autor = autor;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Autor [isbn=" + isbn + ", editorial=" + editorial + ", autor=" + autor + "]";
+	}
+	
+	
+}
