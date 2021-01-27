@@ -1,9 +1,0 @@
-package demo.modelo.entidad;
-
-
-public class Jugador {
-
-	private String nombre;
-	private int dorsal;
-	
-}
