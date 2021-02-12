@@ -8,5 +8,6 @@
 <aop-project name="04_SpringJPAData"/>
 <aop-project name="01_FundamentosSpring"/>
 <aop-project name="09_practicandoExamen"/>
+<aop-project name="002_Ejercicio_VideojuegoJPA"/>
 <aop-project name="Carlos_Garcia_Giner_ExamenT1"/>
 </aop-reference-model>
