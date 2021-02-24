@@ -16,15 +16,21 @@
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="demo.modelo.entidad.Director"/>
     <fullyQualifiedTypeName name="demo.modelo.entidad.Pelicula"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="demo.modelo.entidad.Motor"/>
     <fullyQualifiedTypeName name="demo.modelo.entidad.Avion"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
     <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
     <fullyQualifiedTypeName name="demo.modelo.entidad.Coche"/>
-    <fullyQualifiedTypeName name="java.awt.List"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.videojuego.modelo.entidad.Videojuego"/>
+    <fullyQualifiedTypeName name="org.thymeleaf.context.Context"/>
+    <fullyQualifiedTypeName name="com.mvc.modelo.persistencia.DaoUsuario"/>
+    <fullyQualifiedTypeName name="com.sun.xml.bind.v2.runtime.unmarshaller.XsiNilLoader.Array"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="com.mvc.modelo.persistencia.DaoVideojuego"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.mvc.modelo.entidad.Videojuego"/>
+    <fullyQualifiedTypeName name="com.mvc.modelo.negocio.GestorVideojuego"/>
 </qualifiedTypeNameHistroy>

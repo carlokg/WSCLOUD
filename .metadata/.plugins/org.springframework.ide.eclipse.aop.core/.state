@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="001_Ejercicio1_cgg_Springboot"/>
+<aop-project name="03_SpringBoot"/>
+<aop-project name="01_FundamentosSpring"/>
+<aop-project name="EjercicioMVCVideojuego_2"/>
+<aop-project name="09_practicandoExamen"/>
+<aop-project name="05_MVC"/>
 <aop-project name="02_SpringAnotaciones"/>
 <aop-project name="09_practicando"/>
-<aop-project name="03_SpringBoot"/>
 <aop-project name="Pedidos"/>
 <aop-project name="04_SpringJPAData"/>
-<aop-project name="01_FundamentosSpring"/>
-<aop-project name="09_practicandoExamen"/>
+<aop-project name="003_EjercicioVideojuegoMVC"/>
 <aop-project name="002_Ejercicio_VideojuegoJPA"/>
 <aop-project name="Carlos_Garcia_Giner_ExamenT1"/>
 </aop-reference-model>

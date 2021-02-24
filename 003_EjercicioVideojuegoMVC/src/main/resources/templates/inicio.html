@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>VideojuegosMVC</title>
+</head>
+<body>
+	<h2 style="color:orange;">BIENVENIDOS A NUESTRA WEB DE VIDEOJUEGOS MVC</h1>
+	
+	<h3 style="color:red;" th:text="'Hola ' + ${nombreUsuario}"></h3>
+	
+	<body>
+		<h2 style="color:blue;">Lista de los videojuegos:</h2>
+		<p th:each="valor : ${lista}">
+			<span style="color:grey;" th:text="${valor.id}"></span>
+			<span style="color:grey;"> - </span>
+	        <span style="color:grey;" th:text="${valor.nombre}"></span>
+	        <span style="color:grey;" th:text="${valor.compania}"></span>
+	    </p>
+	    
+	    <br/>
+		<br/>
+	    
+	    <form action="buscarVideojuego" method="get">
+	    
+			<input type="text" name="id_videojuego"/>
+			<input type="submit" value="Buscar"/>
+		</form>
+	</body>
+
+</body>
+</html>

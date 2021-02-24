@@ -24,7 +24,7 @@ public class Application {
 		coche.setPotencia(1100);
 		
 		//persisitimos el coche en BBDD
-		//daoCoche.save(coche);
+		daoCoche.save(coche);
 		
 		Coche c2 = new Coche();
 		c2.setId(1);
@@ -32,7 +32,7 @@ public class Application {
 		c2.setMarca("Ferrari");
 		c2.setPotencia(1101);
 		
-		//daoCoche.save(c2);
+		daoCoche.save(c2);
 		
 		Coche c3 = daoCoche.findById(1).get();
 		System.out.println(c3);
